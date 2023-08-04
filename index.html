@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download Status</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@300;400;500;700&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="download">
+        <i class="fa-solid fa-download"></i>
+      </div>
+      <div class="storage">
+        <p class="storage__heading">Cloud storage</p>
+        <div class="storage__usage">
+          <div class="storage__usage--bar"></div>
+        </div>
+        <p class="storage__amount">256 bytes of 1TB used</p>
+      </div>
+      <div class="sync">
+        <div class="sync__visual">
+          <i class="fa-solid fa-circle-check"></i>
+          <div class="sync__process">
+            <p class="process-name">File syncing</p>
+            <p class="process-status">Up to date</p>
+          </div>
+        </div>
+
+       <i class="fa-solid fa-gear"></i>
+      </div>
+      <div class="cloud">
+        <div class="cloud__visual"></div>
+        <div class="cloud__process">
+          <p class="process-name">Updating Cloud</p>
+          <p class="process-status">0%</p>
+        </div>
+      </div>
+      <div class="solutions">
+        <div class="solutions__visual">
+          <div class="circle"></div>
+        </div>
+        <div class="solutions__process">
+          <p class="process-name">Updating Solutions</p>
+          <p class="process-status">Waiting...</p>
+        </div>
+      </div>
+      <button>Go to downloads</button>
+    </div>
+  </body>
+</html>
